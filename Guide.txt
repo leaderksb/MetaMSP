@@ -1,0 +1,15 @@
+-- scss 사용 준비
+방법0) https://nodejs.org/에서 node.js 설치 → 설치 중 박스 체크 → 재부팅
+방법1) 파이참 메뉴 바에서 파일 → 설정 → 플러그인 → Node.js 설치
+방법2) 환경변수 확인 → 문제 시 재부팅
+node -v
+
+-- Bootstrap 설치
+npm install bootstrap
+
+-- Sass 설치
+npm install -g sass  # Dart로 작성된 Sass의 최신 공식 버전
+
+-- scss to css 컴파일
+cd D:\Spring\MetaMSP\node_modules\bootstrap\scss\  # scss 파일이 있는 경로로 이동
+sass custom.scss:D:\Spring\MetaMSP\src\main\resources\static\css\standard.css
